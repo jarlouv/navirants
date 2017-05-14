@@ -1,0 +1,125 @@
+body {
+	background-color: #aaaaaa;
+	margin: 0;
+	font: 13px normal Helvetica, Arial, sans-serif;
+	color: #4F5155;
+	position: fixed;
+	top:0;
+	right:0;
+	bottom:0;
+	left:0;
+}
+
+.container-fluid{
+	position: relative; 	
+	width: 100%; 
+	margin: 0px;
+	padding: 0px;
+	height: 100%;
+	min-width: 800px;
+}
+
+.filter-header h5{
+	margin-top: 0;
+	margin-bottom: 0;
+	padding-top: 8px;
+	padding-bottom: 8px;
+	text-align: center;
+	font-weight: bold;
+	color: #fff;
+}
+
+.filter-content {
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-bottom: 10px;
+	border-bottom: 1px solid #222;
+}
+
+.resto_info {
+	padding: 0;
+	margin: 0;
+	width: 100%;
+}
+
+#error-message {
+	position: absolute;
+	bottom: 10px;
+	right: 15px;
+    z-index: 100;
+    display: none;
+}
+#inner-message {
+    margin: 0 auto;
+}
+.filter-header{
+	width: 100%;
+	background-color: #1998F7;
+}
+
+#left-container {
+	background-color: #fff;
+	width: 300px; 
+	height: 100%;
+	position: absolute; 
+	top: 0; 
+	left: 0; 
+	border-right: 1px solid #222;
+	z-index: 50; 
+}
+
+#mapholder {
+	background-color: #000;
+	width: 100%; 
+	height: 100%;
+	margin: 0px;
+	padding: 0px;
+}
+
+#mode-of-trans-panel {
+	background-color: #fff;
+	line-height: 30px;
+}
+
+#filter-panel  {
+	position: absolute; 
+	top: 10px; 
+	right: 10px; 
+	background-color: #fff;
+	width: 600px; 
+  	border: 1px solid #000;
+	z-index: 99; 
+	display: none;
+	padding: 0;
+}
+
+#chart_div{
+	padding: 10px;
+}
+
+.checkbox-vertical {
+	display: inline-block;
+}
+
+#close {
+    float:right;
+    display:inline-block;
+    padding:2px 5px;
+    background:#ccc;
+}
+
+#close:hover {
+    float:right;
+    display:inline-block;
+    padding:2px 5px;
+    background:#ccc;
+    color:#fff;
+}
+
+#resto-rangeSlider{
+	height: 20px;
+}
+
+.navbar-nav > li > a {
+	font-size: 25px;
+}
